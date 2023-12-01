@@ -31,23 +31,19 @@ const CampSite = ({
 
 				<div className='flexCenter gap-6'>
 					<span className='flex -space-x-4 overflow-hidden'>
-						{
-							PEOPLE_URL.map((url) =>(
-								<Image 
+						{PEOPLE_URL.map(url => (
+							<Image
 								className='inline-block h-10 w-10 rounded-full'
-									src={url}
-									key={url}
-									alt='person'
-									width={52}
-									height={52}
-								/>
-							))
-						}
-
+								src={url}
+								key={url}
+								alt='person'
+								width={52}
+								height={52}
+							/>
+						))}
 					</span>
 
 					<p className='bold-16 md:bold-20 text-white'> {peopleJoined}</p>
-
 				</div>
 			</div>
 		</div>
@@ -70,6 +66,19 @@ const Camp = () => {
 					subtitle='Montana Red'
 					peopleJoined='50+ Joined'
 				/>
+			</div>
+			<div className='endFlex mt-10 px-6 lg:-mt-60 lg:mr-6'>
+				<div className='bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl'>
+					<h2 className='regular-24 md:regular-32 2xl:regular-64 capitalize text-white'>
+						<strong>Feel Lost</strong> And Not Knowing THe Way?
+					</h2>
+					<p className='regular-24 xl:regular-16 mt-5 text-white'>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+						Repudiandae ad, ab recusandae, iste quas similique ullam tempore
+						harum sed magnam itaque magni accusantium eligendi impedit dolores
+						enim sunt distinctio totam.
+					</p>
+				</div>
 			</div>
 		</section>
 	);
