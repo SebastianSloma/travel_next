@@ -78,6 +78,7 @@ const Camp = () => {
 						harum sed magnam itaque magni accusantium eligendi impedit dolores
 						enim sunt distinctio totam.
 					</p>
+					<Image src='/quote.svg' alt='camp-2' width={186} height={219}/>
 				</div>
 			</div>
 		</section>
