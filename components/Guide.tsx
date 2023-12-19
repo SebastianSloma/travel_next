@@ -12,6 +12,11 @@ const Guide = () => {
 					<p className='regular-16 text-gray-30 xl:max-w-[520px]'>When you look out the window and see gray skies, and temperatures have been near zero for weeks on end then you know that the time has come to plan your next vacation. Many people use travel portals before booking their trip, or inform themselves about possible travel destinations in travel blogs. An important part of the pages are descriptions of destinations and travel texts. They provide the reader with background information, practical tips and get him in the mood for a holiday as well as offering good decision guidance. </p>
 				</div>
 			</div>
+
+			<div className='flexCenter max-container relative w-full border-2 border-blue-500'>
+				<Image src='/boat.png' alt='boat' width={1440} height={580} className='w-full object-cover object-center 2xl:rounded-5xl'/>
+
+			</div>
 		</section>
 	);
 };
