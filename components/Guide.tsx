@@ -43,6 +43,10 @@ const Guide = () => {
 							</div>
 							<p className='bold-20 mt-2'>Aquas Clientes</p>
 						</div>
+						<div className='flex w-full flex-col'>
+							<p className='regular-16 text-gray-20'>Start Track</p>
+							<p className='bold-20 mt-2 whitespace-nowrap'>Wonorejo Puket</p>
+						</div>
 					</div>
 				</div>
 			</div>
