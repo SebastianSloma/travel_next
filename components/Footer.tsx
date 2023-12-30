@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import React from 'react';
-import { FOOTER_LINKS } from '@/constants';
+import { FOOTER_LINKS, FOOTER_CONTACT_INFO, SOCIALS } from '@/constants';
 
 const Footer = () => {
 	return (
@@ -23,6 +23,9 @@ const Footer = () => {
 								</ul>
 								</FooterColumn>
 						))}
+						<div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
